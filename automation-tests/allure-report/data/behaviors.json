@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "It should get homepage title",
+    "uid" : "87cd31d64a953cfc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567768409046,
+      "stop" : 1567768411536,
+      "duration" : 2490
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Evaluating Mortgate rate for first time buyers",
+    "uid" : "44c27814aad7d94",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567768411536,
+      "stop" : 1567768419740,
+      "duration" : 8204
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

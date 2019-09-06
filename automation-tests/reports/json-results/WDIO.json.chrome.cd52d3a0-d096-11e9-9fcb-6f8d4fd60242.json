@@ -1,0 +1,1 @@
+{"start":"2019-09-06T11:09:12.621Z","end":"2019-09-06T11:09:31.950Z","capabilities":{"maxInstances":1,"browserName":"chrome"},"host":"127.0.0.1","port":4444,"baseUrl":"https://www.nationwide.co.uk","framework":"mocha","mochaOpts":{"timeout":10000,"ui":"bdd"},"suites":[]}

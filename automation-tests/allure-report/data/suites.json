@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Nationwide Mortgage Rates",
+    "children" : [ {
+      "name" : "It should get homepage title",
+      "uid" : "87cd31d64a953cfc",
+      "parentUid" : "ce723b51f05b25ca2306f4c4b5f4d90b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567768409046,
+        "stop" : 1567768411536,
+        "duration" : 2490
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Evaluating Mortgate rate for first time buyers",
+      "uid" : "44c27814aad7d94",
+      "parentUid" : "ce723b51f05b25ca2306f4c4b5f4d90b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567768411536,
+        "stop" : 1567768419740,
+        "duration" : 8204
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "ce723b51f05b25ca2306f4c4b5f4d90b"
+  } ]
+}

@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/maxwellnwajei/Documents/Softwares/automation-test/src/tests/mortgageTest.js\"]" ],
+  "name" : "spec files"
+} ]

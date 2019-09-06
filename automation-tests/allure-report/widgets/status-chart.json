@@ -1,0 +1,21 @@
+[ {
+  "uid" : "44c27814aad7d94",
+  "name" : "Evaluating Mortgate rate for first time buyers",
+  "time" : {
+    "start" : 1567768411536,
+    "stop" : 1567768419740,
+    "duration" : 8204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87cd31d64a953cfc",
+  "name" : "It should get homepage title",
+  "time" : {
+    "start" : 1567768409046,
+    "stop" : 1567768411536,
+    "duration" : 2490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

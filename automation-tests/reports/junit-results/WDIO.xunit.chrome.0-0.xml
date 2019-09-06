@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Nationwide_Mortgage_Rates" timestamp="2019-09-06T12:13:29" time="10.695" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="5d0b17ab1f5fb52eaa521e3dba387b98"/>
+      <property name="suiteName" value="Nationwide Mortgage Rates"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./src/tests/mortgageTest.js"/>
+    </properties>
+    <testcase classname="chrome.Nationwide_Mortgage_Rates" name="It_should_get_homepage_title" time="2.49">
+      <system-out>
+        <![CDATA[
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":788,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":665,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/url - {"url":"https://www.nationwide.co.uk/"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/title - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":"Nationwide Building Society | building society, nationwide"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Nationwide_Mortgage_Rates" name="Evaluating_Mortgate_rate_for_first_time_buyers" time="8.204">
+      <system-out>
+        <![CDATA[
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"height":832,"width":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/window/current/size - {"width":1200,"height":923}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"screenHeight":709,"screenWidth":1200}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/url - {"url":"https://www.nationwide.co.uk/"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element - {"using":"css selector","value":"[data-di-id='di-id-e8267c30-3936b64a']"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"ELEMENT":"0.8880335382251348-1"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8880335382251348-1/click - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element - {"using":"css selector","value":"[data-di-id='di-id-39506c08-d37633eb']"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"ELEMENT":"0.15197612459390397-1"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.15197612459390397-1/click - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element - {"using":"css selector","value":"div > ul > li.backgroundStyle06.step3.equalised > details > span > a"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"ELEMENT":"0.9214045560370108-1"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.9214045560370108-1/click - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element - {"using":"id","value":"SearchPropertyValue"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"ELEMENT":"0.8943056337006101-1"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-1/clear - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-1/value - {"value":["£","3","0","0",",","0","0","0"],"text":"£300,000"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element - {"using":"id","value":"SearchDepositAmount"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"ELEMENT":"0.8943056337006101-2"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-2/clear - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-2/value - {"value":["£","1","5","0",",","0","0","0"],"text":"£150,000"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element - {"using":"id","value":"SearchMortgageTerm"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"ELEMENT":"0.8943056337006101-3"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-3/clear - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-3/value - {"value":["3","0"],"text":"30"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element - {"using":"css selector","value":"[data-di-id='\\#myButton']"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":{"ELEMENT":"0.8943056337006101-4"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-4/click - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-5"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-5/displayed - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-5"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-5/text - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":"£516.96"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td.initialRateCell > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-6"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-6/displayed - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td.initialRateCell > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-6"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-6/text - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":"1.49%"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(3) > div.keyData"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-7"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-7/displayed - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(3) > div.keyData"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-7"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-7/text - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":"£999"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(4) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-8"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-8/displayed - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(4) > div.keyData > strong"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-8"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-8/text - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":"3.9% APRC"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td.penultimate > div.keyData"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-9"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-9/displayed - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/elements - {"using":"css selector","value":"#NewMortgageRateTables > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td.penultimate > div.keyData"}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":[{"ELEMENT":"0.8943056337006101-9"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/element/0.8943056337006101-9/text - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":"£12,407.04"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79/screenshot - {}
+RESULT: null
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/69cc7f4292e951e95d5f8308a5985f79 - {}
+RESULT: {"sessionId":"69cc7f4292e951e95d5f8308a5985f79","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
